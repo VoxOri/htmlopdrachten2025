@@ -1,0 +1,74 @@
+h1 {
+    color: cyan;
+    font-family: "Comic Sans MS";
+    text-shadow: 2px 2px 0 black;
+    font-size: 40px;
+}
+h2{
+    color: mediumpurple;
+    font-family: "Comic Sans MS";
+    text-shadow: 2px 2px 0 black;
+}
+h3{
+    color: lightpink;
+    font-family: "Comic Sans MS";
+    text-shadow: 2px 2px 0 black;
+}
+h4{
+    color: lightpink;
+    font-family: "Comic Sans MS";
+    text-shadow: 2px 2px 0 black;
+}
+h5{
+    color: #4a8e50;
+    font-family: "Comic Sans MS";
+    text-shadow: 2px 2px 0 black;
+}
+h6{
+    color: #26bd33;
+    font-family: "Comic Sans MS";
+    text-shadow: 2px 2px 0 black;
+}
+body{
+    background-image: url("../image/425547638_377276681687367_4110588124217282024_nn.png");
+    background-attachment: fixed;
+}
+.link {
+    color: lightpink;
+    font-family: "Comic Sans MS";
+    text-shadow: 2px 2px 0 black;
+    font-size: 18px;
+}
+.headerbar{
+    background-color: darkgray;
+
+}
+.menu {
+    display: inline-flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+}
+
+.box_other {
+    width: 100px;
+    height: 100px;
+    background-color: lightgoldenrodyellow;
+    color: mediumpurple;
+    display: grid;
+    place-items: center;
+    float: left;
+}
+.box:hover{
+    background-color: black;
+    color: lightpink;
+}
+
+.h4kleur{
+    color: goldenrod;
+}
+.form {
+    margin-top: 125px;
+}

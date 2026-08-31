@@ -1,0 +1,107 @@
+.menu {
+    display: inline-flex;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+}
+
+.box_other {
+    width: 100px;
+    height: 100px;
+    margin-top: -20px;
+    margin-left: -20px;
+    background-color: lightgoldenrodyellow;
+    color: mediumpurple;
+    display: grid;
+    place-items: center;
+    float: left;
+    align-items: center;
+    border-radius: 100%;
+}
+.box_other:hover{
+    background-color: black;
+    color: lightpink;
+}
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url('../image/space-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    padding: 2em;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    flex-direction: column;
+
+}
+
+.hero {
+    padding: 2em;
+}
+
+.hero img {
+    width: 250px;
+}
+
+.hero h2 {
+    font-size: 2em;
+    margin: 1em 0;
+}
+
+.order-button {
+    width: 200px;
+    margin-top: 1em;
+    transition: transform 0.3s ease;
+}
+
+.order-button:hover {
+    transform: scale(1.1);
+}
+
+.menu {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2em;
+    margin-top: 50px;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+.menu h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.pizza {
+    margin: 1em auto;
+    padding: 1em;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.pizza img {
+    width: 100px;
+    margin-bottom: 1em;
+}
+
+
+.tekssst{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
